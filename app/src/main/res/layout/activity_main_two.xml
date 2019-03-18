@@ -32,10 +32,25 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberPassword" />
+
         <Button
             android:id="@+id/btn_further"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:text="@string/further" />
 
     </LinearLayout>
