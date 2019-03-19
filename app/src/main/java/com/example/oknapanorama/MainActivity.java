@@ -9,15 +9,13 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
-    //Определяем кнопку (ImageView) это лого.
-    private ImageView logoImage;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        logoImage = /*(ImageView)*/ findViewById(R.id.logoImage);
+        //Определяем кнопку (ImageView) это лого.
+        ImageView logoImage = findViewById(R.id.logoImage);
         logoImage.setOnClickListener(this);
     }
 
