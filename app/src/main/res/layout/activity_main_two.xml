@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginBottom="16dp"
-            android:autofillHints=""
+            android:autofillHints="PersonName"
             android:background="@drawable/dr_buttoncolorwhite"
             android:drawableStart="@drawable/ic_mood"
             android:hint="@string/login"
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginBottom="16dp"
-            android:autofillHints=""
+            android:autofillHints="password"
             android:background="@drawable/dr_buttoncolorwhite"
             android:drawableStart="@drawable/ic_person"
             android:hint="@string/password"
@@ -74,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
-            android:layout_marginLeft="16dp"
+
             android:text="@string/register"/>
 
         <TextView
