@@ -3,10 +3,12 @@
     <string name="logo">logo</string>
     <string name="further">Далее</string>
     <string name="password">пароль</string>
-    <string name="sait">KakoitoSait.ru</string>
+    <string name="sait">http://okna.panorama-group.ru</string>
     <string name="login">логин</string>
     <string name="name">name</string>
     <string name="logoName">loginName</string>
     <string name="nameOne">name</string>
     <string name="register">зарегистрироваться</string>
+    <string name="toolbarText">text</string>
+    <string name="text">text</string>
 </resources>

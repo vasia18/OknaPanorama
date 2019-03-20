@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivityTwo">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -44,6 +45,7 @@
             android:inputType="textPersonName"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:textSize="15sp"
             tools:targetApi="o" />
 
         <EditText
@@ -58,29 +60,40 @@
             android:inputType="textPassword"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
+            android:textSize="17sp"
             tools:targetApi="o" />
 
-        <Button
-            android:id="@+id/btnFurther"
+        <FrameLayout
+            style="?android:attr/buttonStyle"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/dr_buttoncolorred"
-            android:text="@string/further"
-            android:textSize="12sp"
-            android:textColor="@color/btnColorWhite" />
+            android:background="@drawable/dr_buttoncolorred">
+
+            <Button
+                android:id="@+id/btnFurther"
+                style="@style/captionOnly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/ic_check"
+                android:gravity="center" />
+        </FrameLayout>
+
 
         <TextView
+            android:id="@+id/tv_registration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
-
-            android:text="@string/register"/>
+            android:text="@string/register" />
 
         <TextView
+            android:id="@+id/tv_nameSait"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:autoLink="web"
             android:text="@string/sait" />
 
     </LinearLayout>
