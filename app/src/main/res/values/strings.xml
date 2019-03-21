@@ -11,4 +11,7 @@
     <string name="register">зарегистрироваться</string>
     <string name="toolbarText">text</string>
     <string name="text">text</string>
+    <string name="textSlideOne">Какой то текст</string>
+    <string name="description_here">Description Here</string>
+    <string name="todo">TODO</string>
 </resources>
