@@ -34,7 +34,25 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/etLogin"
+            android:id="@+id/etLogin1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:autofillHints="PersonName"
+            android:background="@drawable/dr_buttoncolorwhite"
+            android:drawableStart="@drawable/ic_mood"
+            android:hint="@string/login"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="15sp"
+            tools:targetApi="o"
+            tools:ignore="DuplicateIds" />
+
+
+
+        <EditText
+            android:id="@+id/etLogin2"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginBottom="16dp"
@@ -48,25 +66,8 @@
             android:textSize="15sp"
             tools:targetApi="o" />
 
-
-
         <EditText
-            android:id="@+id/etLogin"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginBottom="16dp"
-            android:autofillHints="PersonName"
-            android:background="@drawable/dr_buttoncolorwhite"
-            android:drawableStart="@drawable/ic_mood"
-            android:hint="@string/login"
-            android:inputType="textPersonName"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:textSize="15sp"
-            tools:targetApi="o" />
-
-        <EditText
-            android:id="@+id/etLogin"
+            android:id="@+id/etLogin3"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginBottom="16dp"

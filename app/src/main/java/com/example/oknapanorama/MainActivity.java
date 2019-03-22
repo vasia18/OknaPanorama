@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.logoImage:
                 //Стартуем и переходим на другое активити (MainActivityTwo)
-                Intent intent = new Intent(this, MainActivityTwo.class);
+                Intent intent = new Intent(this, SliderActivity.class);
                 //Стартуем
                 startActivity(intent);
 

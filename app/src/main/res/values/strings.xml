@@ -14,4 +14,21 @@
     <string name="textSlideOne">Какой то текст</string>
     <string name="description_here">Description Here</string>
     <string name="todo">TODO</string>
+
+    <string name="title1">Первый заголовок</string>
+    <string name="title2">Второй заголовок</string>
+    <string name="title3">Третий заголовок</string>
+
+    <string name="desc_textone">Guys and welcome back
+        to another android tutorial in this video we going to design and create a
+        screens slider in android studio. like and subscribe to support the channel
+        thank you!</string>
+
+    <string name="desc_texttwo">want to open another activity through
+        swipe up and swipe down to return to the previous activity</string>
+
+    <string name="desc_textfree">But I have haptic tecture for every
+        image but I don know how to insert it on the
+        scrolling images</string>
+
 </resources>

@@ -6,7 +6,8 @@
     android:background="@color/colorBackgroundActivity"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivityTwo">
+    tools:context=".MainActivityTwo"
+    tools:ignore="Overdraw">
 
 
     <LinearLayout
