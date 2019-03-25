@@ -1,7 +1,6 @@
 package com.example.oknapanorama;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -22,7 +21,7 @@ public class SliderAdapter extends PagerAdapter {
     };
 
     //(слайдер) Масив с заголовками которые будут перелистываться в месте с картинками
-    public int[] lst_title = {
+    private int[] lst_title = {
             R.string.title1,
             R.string.title2,
             R.string.title3
@@ -30,14 +29,14 @@ public class SliderAdapter extends PagerAdapter {
 
 
     //(слайдер) Масив с фоном который будет перелистываться в месте с картинками и заголовком
-    public int[] lst_description = {
+    private int[] lst_description = {
             R.string.desc_textone,
             R.string.desc_texttwo,
             R.string.desc_textfree
     };
 
     //(Слайдер) Масив с фоном (Color) который будет перелистваться в месте с картинками
-    public int[] lst_backgraundcolor = {
+    private int[] lst_backgraundcolor = {
             R.color.fon_1,
             R.color.fon_2,
             R.color.fon_3
@@ -50,13 +49,19 @@ public class SliderAdapter extends PagerAdapter {
 
     @Override
     public int getCount() {
+
         return lst_title.length;
+    }
+
+    @Override
+    public boolean isViewFromObject(View view, Object object) {
+        return (view == (LinearLayout) object);
     }
 
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-        inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+        inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(R.layout.activity_slider, container, false);
         LinearLayout layoutslide = (LinearLayout) view.findViewById(R.id.slidelinearlayout);
         ImageView imgslide = (ImageView) view.findViewById(R.id.slide_img);
@@ -77,8 +82,4 @@ public class SliderAdapter extends PagerAdapter {
         container.removeView((LinearLayout) object);
     }
 
-    @Override
-    public boolean isViewFromObject(@NonNull View view, @NonNull Object o) {
-        return false;
-    }
 }

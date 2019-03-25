@@ -20,8 +20,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="@string/textSlideOne"
-        android:textSize="35sp"
+        android:textSize="25sp"
         android:textStyle="bold" />
+
+
 
     <TextView
         android:id="@+id/txtdescription"

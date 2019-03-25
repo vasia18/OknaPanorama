@@ -13,7 +13,8 @@ public class SliderActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slider);
-        viewPager = (ViewPager)findViewById(R.id.v);
+
+        viewPager = (ViewPager)findViewById(R.id.viewpager);
         myadapter = new SliderAdapter(this);
         viewPager.setAdapter(myadapter);
 
